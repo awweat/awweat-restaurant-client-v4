@@ -1,0 +1,37 @@
+body {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  /* -webkit-line-clamp: 2; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 1px 1px 2.5px 0 rgb(10 10 10 / 10%), 0 0 1px 0 rgb(10 10 10 / 2%) !important;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 0 1px rgb(10 10 10 / 10%), 1px 1px 0 0 rgb(10 10 10 / 2%) !important;
+}
+
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-card-head,
+.modal-card-foot {
+  background-color: #fff;
+}
+.modal-card-head {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.modal-card-foot {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
